@@ -1,0 +1,26 @@
+{
+    "name": "octopush/sms-bundle",
+    "description": "Integrates the Octopush SMS API client with Symfony.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saša Stamenković",
+            "email": "umpirsky@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Octopush\\Bundle\\SMSBundle\\": "" }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/umpirsky/sms-api-php.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/framework-bundle": "~2.3|~3.0",
+        "octopush/sms-api": "dev-feature/2.0"
+    }
+}
