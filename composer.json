@@ -12,15 +12,9 @@
     "autoload": {
         "psr-4": { "Octopush\\Bundle\\SMSBundle\\": "" }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/umpirsky/sms-api-php.git"
-        }
-    ],
     "require": {
         "php": ">=5.4",
         "symfony/framework-bundle": "~2.3|~3.0",
-        "octopush/sms-api": "dev-feature/2.0"
+        "octopush/sms-api": "dev-master"
     }
 }
