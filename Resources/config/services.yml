@@ -1,6 +1,7 @@
 services:
    octopush_sms.api.client:
        class: Octopush\Api\Client
+       public: true
        arguments:
            - '%octopush_sms.user_login%'
            - '%octopush_sms.api_key%'
