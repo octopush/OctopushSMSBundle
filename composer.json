@@ -15,6 +15,6 @@
     "require": {
         "php": ">=5.4",
         "symfony/framework-bundle": "~2.3 || ~3.0 || ~4.0",
-        "octopush/sms-api": "1.0.0"
+        "octopush/sms-api": "1.1.0"
     }
 }
